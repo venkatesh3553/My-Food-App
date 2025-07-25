@@ -1,0 +1,67 @@
+@keyframes celebrateBounce {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cart-msg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-msg-link {
+  width: 90%;
+  position: fixed;
+  bottom: 10px;
+  height: 70px;
+  text-decoration: none;
+}
+
+.cart-msg-button {
+  width: 90%;
+  position: fixed;
+  bottom: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: bold;
+  background-color: green;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+
+  animation: celebrateBounce 0.8s ease;
+  transition: transform 0.3s ease;
+}
+
+.cart-msg-button:hover {
+  transform: scale(1.05);
+  background-color: #00aa00;
+}
+
+.cart-msg-text {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-msg-icon {
+  font-weight: bold;
+}

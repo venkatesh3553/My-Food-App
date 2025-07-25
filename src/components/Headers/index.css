@@ -1,0 +1,402 @@
+/* Default styles for larger screens are assumed to be present */
+
+@media only screen and (max-width: 600px) {
+  .header-bg-container {
+    width: 100%;
+     margin-bottom: 10px;
+     margin-top: 10px;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  
+
+  }
+
+  .home-location-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .home-head {
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+  }
+
+  .location-icon {
+    color: red;
+  }
+
+ .backbutton {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  text-decoration: wavy;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Important for positioning child absolutely */
+}
+
+.backbutton::after {
+  content: "";
+  position: absolute;
+  top: 100%;  /* Position below the button */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: green;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.backbutton:hover::after {
+  content: "Back";
+  opacity: 1;
+}
+
+
+  .input-container {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 8px;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    padding: 0 10px;
+  }
+  .input-container-mobail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 8px;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    padding: 0 10px;
+    margin-top: 15px;
+  }
+
+  .search-box {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .search-icon {
+    font-size: 12px;
+    color: orange;
+  }
+
+  .wallet-name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .wallet-icon {
+    font-size: 18px;
+    color: green;
+  }
+
+  .V {
+    font-size: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  .header-bg-container {
+    width: 100%;
+     margin-bottom: 10px;
+     margin-top: 10px;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  
+
+  }
+
+  .home-location-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .home-head {
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+  }
+
+  .location-icon {
+    color: red;
+  }
+
+ .backbutton {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  text-decoration: wavy;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Important for positioning child absolutely */
+}
+
+.backbutton::after {
+  content: "";
+  position: absolute;
+  top: 100%;  /* Position below the button */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: green;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.backbutton:hover::after {
+  content: "Back";
+  opacity: 1;
+}
+
+
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 8px;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    padding: 0 10px;
+    margin-right: 100px;
+  }
+  .input-container-mobail{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 8px;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    padding: 0 10px;
+    margin-top: 15px;
+  }
+
+  .search-box {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .search-icon {
+    font-size: 12px;
+    color: orange;
+  }
+
+  .wallet-name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .wallet-icon {
+    font-size: 18px;
+    color: green;
+  }
+
+  .V {
+    font-size: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* Styles for laptops and desktops */
+   .header-bg-container {
+    width: 100%;
+     margin-bottom: 10px;
+     margin-top: 10px;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  
+
+  }
+
+  .home-location-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .home-head {
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+  }
+
+  .location-icon {
+    color: red;
+  }
+
+ .backbutton {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  text-decoration: wavy;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Important for positioning child absolutely */
+}
+
+.backbutton::after {
+  content: "";
+  position: absolute;
+  top: 100%;  /* Position below the button */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: green;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.backbutton:hover::after {
+  content: "Back";
+  opacity: 1;
+}
+
+
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 8px;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    padding: 0 10px;
+    margin-right: 500px;
+  }
+  .input-container-mobail{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid orange;
+    border-radius: 8px;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    padding: 0 10px;
+    margin-top: 15px;
+  }
+
+  .search-box {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .search-icon {
+    font-size: 12px;
+    color: orange;
+  }
+
+  .wallet-name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .wallet-icon {
+    font-size: 18px;
+    color: green;
+  }
+
+  .V {
+    font-size: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+}

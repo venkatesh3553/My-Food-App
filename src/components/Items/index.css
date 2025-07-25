@@ -1,0 +1,121 @@
+@media only screen and (max-width: 600px) {
+  .items-ul {
+  display: flex;
+  flex-direction: row;     
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-x: auto;        
+  white-space: nowrap;
+  scrollbar-width: none;  
+
+}
+
+.items-links {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.items-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px gray;
+}
+
+.items-name {
+  color: orange;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 10px;
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  .items-ul {
+  display: flex;
+  flex-direction: row;     
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-x: auto;        
+  white-space: nowrap;
+    scrollbar-width: none;  
+    
+}
+
+.items-links {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+  margin: 10px;
+}
+
+.items-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px gray;
+}
+
+.items-name {
+  color: black;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 10px;
+}
+}
+@media only screen and (min-width: 1025px) {
+  /* Styles for laptops and desktops */
+.items-ul {
+  display: flex;
+  flex-direction: row;     
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-x: auto;        
+  white-space: nowrap;
+    scrollbar-width: none;  
+    
+}
+
+.items-links {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+  margin: 10px;
+}
+
+.items-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px gray;
+}
+
+.items-name {
+  color: black;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
+  font-size: 10px;
+}
+
+}

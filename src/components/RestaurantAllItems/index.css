@@ -1,0 +1,231 @@
+body{
+    background-color: #f0f8ff;
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile phones */
+  .restaurant-name-rating-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rating-peoples-rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.ratsaurant-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f8ff;
+}
+.restaurant-img{
+    display: none;
+    height: 200px;
+    width: 40%;
+    border-radius: 20px;
+}
+.rating-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rating-peoples-rating{
+    width: 200%;
+}
+.restaurant-name{
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.restaurant-rating{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+.restaurant-totalPepoles{
+    margin-top: 0px;
+    font-weight: bold;
+    color: orange;
+    font-size: 12px;
+}
+.restaurant-distance{
+    font-weight: bold;
+    color: red;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.restaurant-timing{
+    font-weight: bold;
+    color: green;
+    margin-top: 0px;
+    font-size: 13px;
+}
+.hr-mobail{
+     border: none;
+    border: 1px dotted gray;
+    margin: 0px;
+}
+
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+   .hr-mobail{
+    display: none;
+  }
+  .restaurant-name-rating-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.rating-peoples-rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.ratsaurant-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f8ff;
+}
+.restaurant-img{
+    height: 400px;
+    width: 40%;
+    border-radius: 20px;
+}
+.rating-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rating-peoples-rating{
+    width: 200%;
+}
+.restaurant-name{
+    font-size: 34px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 20px;
+}
+.restaurant-rating{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 60px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+.restaurant-totalPepoles{
+    margin-top: 0px;
+    font-weight: bold;
+    color: orange;
+}
+.restaurant-distance{
+    font-weight: bold;
+    color: red;
+    margin-bottom: 0px;
+}
+.restaurant-timing{
+    font-weight: bold;
+    color: green;
+    margin-top: 0px;
+}
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Styles for laptops and desktops */
+  .hr-mobail{
+    display: none;
+  }
+  .restaurant-name-rating-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rating-peoples-rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.ratsaurant-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f8ff;
+}
+.restaurant-img{
+    height: 400px;
+    width: 40%;
+    border-radius: 20px;
+}
+.rating-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rating-peoples-rating{
+    width: 200%;
+}
+.restaurant-name{
+    font-size: 34px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 20px;
+}
+.restaurant-rating{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 30px;
+    width: 60px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+.restaurant-totalPepoles{
+    margin-top: 0px;
+    font-weight: bold;
+    color: orange;
+}
+.restaurant-distance{
+    font-weight: bold;
+    color: red;
+    margin-bottom: 0px;
+}
+.restaurant-timing{
+    font-weight: bold;
+    color: green;
+    margin-top: 0px;
+}
+}

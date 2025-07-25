@@ -1,0 +1,468 @@
+@media only screen and (max-width:600px){
+    
+    .image-name-price{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .rationg-people-timing{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .rationg-people-timing-addbuton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .restaurant-ul{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   list-style-type: none;
+   margin-left: 0px;
+   padding-left: 0px;
+}
+.RestaurantFoodItems-li{
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    
+}
+.RestaurantFoodItems-img{
+    height: 120px;
+    width:120px;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+.RestaurantFoodItems-name{
+    color: orange;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.price-name{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 2px;
+    width: 30%;
+    
+}
+.RestaurantFoodItems-price{
+    color: green;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.rating-totalPepoles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.RestaurantFoodItems-rating{
+    margin-left: 10px;
+    color: white;
+    height: 25px;
+    width: 30px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.RestaurantFoodItems-totalPepoles{
+    font-weight: bold;
+    color: green;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.RestaurantFoodItems-timing{
+    margin-left: 10px;
+    font-weight: bold;
+    color: red;
+    font-size: 10px;
+}
+.RestaurantFoodItems-button-container{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+.RestaurantFoodItems-quantity{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+}
+.RestaurantFoodItems-button-plus{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid green;
+    outline: none;
+    color: Green;
+}
+.RestaurantFoodItems-button-minus{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid red;
+    outline: none;
+    color: red;
+}
+.add-button {
+  height: 26px;
+  width: 80px;
+  background-color: transparent;
+  border-radius: 7px;
+  border: 1px solid green;
+  outline: none;
+  color: Green;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  
+}
+
+.ok-msg{
+    color:red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ok-icon{
+    font-size: 20px;
+    color: green;
+}
+.ok-food-btn{
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    border: 0px;
+
+
+}
+.restaurantFoodItems-restaurantname-mobail{
+    font-size: 10px;
+    font-weight: bold;
+}
+.restaurantFoodItems-restaurantname-laptop{
+    display: none;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  .ok-msg{
+    color:red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ok-icon{
+    font-size: 28px;
+    color: green;
+}
+  .ok-food-btn{
+    background-color: transparent;
+    color: green;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid green;
+}
+  .restaurant-ul{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   list-style-type: none;
+}
+.RestaurantFoodItems-li{
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    width: 40%;
+    height: 650px;
+    margin: 10px;
+}
+.RestaurantFoodItems-img{
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+.RestaurantFoodItems-name{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.price-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RestaurantFoodItems-price{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.rating-totalPepoles{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+.RestaurantFoodItems-rating{
+    margin-left: 10px;
+    color: white;
+    height: 30px;
+    width: 50px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+}
+.RestaurantFoodItems-totalPepoles{
+    font-weight: bold;
+    color: green;
+}
+.RestaurantFoodItems-timing{
+    margin-left: 10px;
+    font-weight: bold;
+    color: red;
+}
+.RestaurantFoodItems-button-container{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+.RestaurantFoodItems-quantity{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+}
+.RestaurantFoodItems-button-plus{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid green;
+    outline: none;
+    color: Green;
+}
+.RestaurantFoodItems-button-minus{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid red;
+    outline: none;
+    color: red;
+}
+.add-button{
+    height: 46px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid green;
+    outline: none;
+    color: Green;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.restaurantFoodItems-restaurantname-laptop{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.restaurantFoodItems-restaurantname-mobail{
+    display: none;
+}
+}
+@media only screen and (min-width: 1025px) {
+  /* Styles for laptops and desktops */
+  .ok-msg{
+    color:red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ok-icon{
+    font-size: 28px;
+    color: green;
+}
+  .ok-food-btn{
+    background-color: transparent;
+    color: green;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid green;
+}
+  .restaurant-ul{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   list-style-type: none;
+}
+.RestaurantFoodItems-li{
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    width: 30%;
+    height: 600px;
+    margin: 10px;
+}
+.RestaurantFoodItems-img{
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+}
+.RestaurantFoodItems-name{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.price-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RestaurantFoodItems-price{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.rating-totalPepoles{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+.RestaurantFoodItems-rating{
+    margin-left: 10px;
+    color: white;
+    height: 30px;
+    width: 50px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+}
+.RestaurantFoodItems-totalPepoles{
+    font-weight: bold;
+    color: green;
+}
+.RestaurantFoodItems-timing{
+    margin-left: 10px;
+    font-weight: bold;
+    color: red;
+}
+.RestaurantFoodItems-button-container{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+.RestaurantFoodItems-quantity{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+}
+.RestaurantFoodItems-button-plus{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid green;
+    outline: none;
+    color: Green;
+}
+.RestaurantFoodItems-button-minus{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid red;
+    outline: none;
+    color: red;
+}
+.add-button{
+    height: 46px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid green;
+    outline: none;
+    color: Green;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.restaurantFoodItems-restaurantname-laptop{
+    font-size: 24px;
+    font-weight: bold;
+}
+.restaurantFoodItems-restaurantname-mobail{
+    display: none;
+}
+}

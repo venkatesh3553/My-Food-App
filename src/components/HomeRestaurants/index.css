@@ -1,0 +1,272 @@
+@media only screen and (max-width: 600px) {
+  .homerestaurant-image{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+.homerestaurant-li{
+    list-style-type: none;
+    margin: 10px;
+    width: 100%;
+    height: 380px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+.homerestaurant-name{
+    font-size: 15px;
+    margin-left: 10px;
+    color: orange;
+    font-weight: bold;
+}
+.homerestaurant-offer{
+    font-weight: bold;
+    font-size: 13px;
+    margin:0px ; 
+    text-align: center;
+}
+.homerestaurant-timing{
+     margin-bottom: 0px;
+    font-weight: bold;
+    color: green;
+     font-size: 12px;
+
+}
+.homerestaurant-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    margin-top: 0px;
+}
+.homerestaurant-distance{
+    margin-left: 10px;
+    font-weight: bold;
+    color: gray;
+    font-size: 12px;
+}
+.hr{
+    border: none;
+    border: 1px dotted gray;
+    margin: 0px;
+}
+.name-rating-timing{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.km-people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homerestaurant-totalPepoles{
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 0px;
+    font-size: 12px;
+}
+.rating-timing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.link{
+    text-decoration: wavy;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  .homerestaurant-image{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+.homerestaurant-li{
+    list-style-type: none;
+    margin: 10px;
+    width: 80%;
+    height: 460px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+
+}
+.homerestaurant-name{
+    font-size: 20px;
+    margin-left: 10px;
+    color: orange;
+    font-weight: bold;
+}
+.homerestaurant-offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.homerestaurant-timing{
+     margin-bottom: 0px;
+    font-weight: bold;
+    color: green;
+}
+.homerestaurant-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 60px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.homerestaurant-distance{
+    margin-left: 10px;
+    font-weight: bold;
+    color: gray;
+}
+.hr{
+      border: none;
+    border: 1px dotted gray;
+}
+.name-rating-timing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.km-people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homerestaurant-totalPepoles{
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 0px;
+}
+.rating-timing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    text-decoration: wavy;
+}
+
+}
+
+@media only screen and (min-width: 1025px) {
+  .homerestaurant-image{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+.homerestaurant-li{
+    list-style-type: none;
+    margin: 10px;
+    width: 30%;
+    height: 460px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+
+}
+.homerestaurant-name{
+    font-size: 20px;
+    margin-left: 10px;
+    color: orange;
+    font-weight: bold;
+}
+.homerestaurant-offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.homerestaurant-timing{
+     margin-bottom: 0px;
+    font-weight: bold;
+    color: green;
+}
+.homerestaurant-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 60px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.homerestaurant-distance{
+    margin-left: 10px;
+    font-weight: bold;
+    color: gray;
+}
+.hr{
+      border: none;
+    border: 1px dotted gray;
+}
+.name-rating-timing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.km-people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homerestaurant-totalPepoles{
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 0px;
+}
+.rating-timing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    text-decoration: wavy;
+}
+
+}
+.cat-img1{
+    border-radius: 20px;
+    height: 120px;
+}

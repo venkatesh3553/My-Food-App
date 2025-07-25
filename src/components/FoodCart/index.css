@@ -1,0 +1,836 @@
+body{
+  background: white;
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile phones */
+  .add-card{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    padding: 10px;
+
+  }
+  .p{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  .icon{
+    font-size: 18px;
+    margin-right: 5px;
+    color: gray;
+  }
+  .pp{
+    font-weight: bold;
+    font-size: 12px;
+    color: gray;
+  }
+  .gold-30{
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .gold-button{
+    height: 30px;
+    width: 60px;
+    border: 0px;
+    outline: none;
+    border: 1px solid green;
+    border-radius: 7px;
+    color: green;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .gold-button-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  .gold-pera1{
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .FaCrown{
+    color: goldenrod;
+    font-size: 16px;
+  margin-right: 5px;
+    
+  }
+  .gold-pera2{
+    color: gray;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+  
+  .p-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .gold-pera-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .gold-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 10px;
+   border-radius: 10px;
+    margin-bottom: 0px;
+  }
+  .cart-bg{
+  margin-top: 0px;
+  padding-top: 0px;
+    width: 100%;
+}
+.hr-gold{
+ border: none;
+  border-top: 1px dashed gray;
+  width: 100%;
+}
+  .food-cart-item {
+  list-style-type: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  margin: 10px;
+  
+}
+
+.food-cart-left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.food-cart-img {
+  height: 200px;
+  width: 50%;
+  border-radius: 10px;
+  display: none;
+}
+
+.food-cart-name {
+  margin-left: 10px;
+  font-weight: bold;
+  color: orange;
+  font-size: 12px;
+}
+
+.food-cart-price {
+  font-weight: bold;
+  font-size: 12px;
+   margin-right: 20px;
+}
+
+.food-cart-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-minus,
+.btn-plus {
+  height: 26px;
+  width: 30px;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.btn-minus {
+  border: 1px solid red;
+  color: red;
+  font-size: 10px;
+}
+
+.btn-plus {
+  border: 1px solid green;
+  color: green;
+  font-size: 10px;
+}
+
+.food-cart-qty {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.food-cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 0 10px green;
+  padding: 0 20px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.pay-on-delivery {
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: gray;
+  font-size: 12px;
+}
+
+.payment-method {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.place-order-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 50%;
+  background-color: red;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+ font-size: 14px;
+
+}
+
+.total-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+   font-size: 14px;
+}
+
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  .add-card{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    padding: 10px;
+
+  }
+  .p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  .icon{
+    font-size: 20px;
+    margin-right: 5px;
+    color: gray;
+  }
+  .pp{
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+  }
+  .gold-30{
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .gold-button{
+    height: 36px;
+    width: 100px;
+    border: 0px;
+    outline: none;
+    border: 1px solid green;
+    border-radius: 7px;
+    color: green;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .gold-button-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  .gold-pera1{
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .FaCrown{
+    color: goldenrod;
+    font-size: 20px;
+  margin-right: 5px;
+    
+  }
+  .gold-pera2{
+    color: gray;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  
+  .p-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .gold-pera-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .gold-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10px;
+   border-radius: 10px;
+    margin-bottom: 0px;
+  }
+  .cart-bg{
+  margin-top: 0px;
+  padding-top: 0px;
+    width: 100%;
+}
+.hr-gold{
+ border: none;
+  border-top: 1px dashed gray;
+  width: 100%;
+}
+  .food-cart-item {
+  list-style-type: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  box-shadow: 0 0 10px gray;
+  padding-right: 10px;
+}
+
+.food-cart-left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.food-cart-img {
+  height: 200px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.food-cart-name {
+  margin-left: 10px;
+  font-weight: bold;
+  color: orange;
+}
+
+.food-cart-price {
+  font-weight: bold;
+}
+
+.food-cart-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-minus,
+.btn-plus {
+  height: 36px;
+  width: 50px;
+  border-radius: 10px;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-minus {
+  border: 1px solid red;
+  color: red;
+}
+
+.btn-plus {
+  border: 1px solid green;
+  color: green;
+}
+
+.food-cart-qty {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.food-cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 0 10px green;
+  padding: 0 20px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.pay-on-delivery {
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: gray;
+}
+
+.payment-method {
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.place-order-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 30%;
+  background-color: red;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.total-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+}
+}
+@media only screen and (min-width: 1025px) {
+  /* Styles for laptops and desktops */
+.add-card{
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    padding: 10px;
+
+  }
+  .p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  .icon{
+    font-size: 20px;
+    margin-right: 5px;
+    color: gray;
+  }
+  .pp{
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+  }
+  .gold-30{
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .gold-button{
+    height: 36px;
+    width: 100px;
+    border: 0px;
+    outline: none;
+    border: 1px solid green;
+    border-radius: 7px;
+    color: green;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .gold-button-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  .gold-pera1{
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .FaCrown{
+    color: goldenrod;
+    font-size: 20px;
+  margin-right: 5px;
+    
+  }
+  .gold-pera2{
+    color: gray;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  
+  .p-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .gold-pera-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .gold-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10px;
+   border-radius: 10px;
+    margin-bottom: 0px;
+  }
+  .cart-bg{
+  margin-top: 0px;
+  padding-top: 0px;
+    width: 100%;
+}
+.hr-gold{
+ border: none;
+  border-top: 1px dashed gray;
+  width: 100%;
+}
+  .food-cart-item {
+  list-style-type: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  box-shadow: 0 0 10px gray;
+  padding-right: 10px;
+}
+
+.food-cart-left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.food-cart-img {
+  height: 200px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.food-cart-name {
+  margin-left: 10px;
+  font-weight: bold;
+  color: orange;
+}
+
+.food-cart-price {
+  font-weight: bold;
+}
+
+.food-cart-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-minus,
+.btn-plus {
+  height: 36px;
+  width: 50px;
+  border-radius: 10px;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-minus {
+  border: 1px solid red;
+  color: red;
+}
+
+.btn-plus {
+  border: 1px solid green;
+  color: green;
+}
+
+.food-cart-qty {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.food-cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  box-shadow: 0 0 10px green;
+  padding: 0 20px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.pay-on-delivery {
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: gray;
+}
+
+.payment-method {
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.place-order-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 30%;
+  background: linear-gradient(270deg, #ff1a1a, #e60000, #ff4d4d);
+  background-size: 600% 100%;
+  background-position: 0% 50%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+  animation: none;
+}
+
+.place-order-button:hover {
+  animation: gradientMove 2s ease infinite;
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(255, 0, 0, 0.5);
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+
+
+.total-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+}
+}
+
+.empty-card{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cat-img{
+  height: 200px;
+
+}
+.cat-head{
+  font-weight: bold;
+  font-family: Roboto;
+}
+.cat-button {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid green;
+  background-color: transparent;
+  font-weight: bolder;
+  color: green;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Glowing border on hover */
+.cat-button::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  transform: rotate(45deg);
+    background: radial-gradient(circle, rgba(0,255,0,0.3) 0%, transparent 70%);
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
+.cat-button:hover::before {
+  opacity: 1;
+}
+
+.cat-button:hover {
+  transform: scale(1.05);
+  border-color: limegreen;
+  color: white;
+  background-color: green;
+  box-shadow: 0 0 10px limegreen, 0 0 20px green;
+}
+.order-success-card {
+  position: relative;
+  text-align: center;
+  padding: 50px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: gold;
+  animation: fall 3s linear infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(600px) rotate(360deg);
+    opacity: 0;
+  }
+}
+.fod-img{
+  height: 250px;
+}
+.fod-name{
+  font-family: cursive;
+  font-weight: bold;
+}
+.food-btn {
+  height: 36px;
+  width: 150px;
+  border: 1px solid orange;
+  color: orange;
+  font-weight: bold;
+  border-radius: 9px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.food-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  z-index: -1;
+  transition: all 0.4s ease;
+}
+
+.food-btn:hover::before {
+  left: 0;
+}
+
+.food-btn:hover {
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.4);
+}
