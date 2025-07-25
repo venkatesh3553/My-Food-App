@@ -19,7 +19,7 @@ class App extends Component{
     this.setState({addfoodlist:[]})
   }
   getItems = async () => {
-    const url = 'http://localhost:5000/api/searchfood/';
+    const url = 'https://fodjson.onrender.com/api/searchfood/';
     const res = await fetch(url);
     const data = await res.json();
     this.setState({ searchfood: data});
